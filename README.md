@@ -151,9 +151,10 @@ This project is proprietary and confidential. All rights reserved.
 ## Contact
 
 For business inquiries or support:
-- Website: [Dr. Kiyimba's Website]
-- Email: [Contact through website]
-- Location: [Service Location]
+- Website: https://drkiyimba.com
+- Email: kiyimba50@gmail.com
+- Phone: +256 754 19 4543
+- Hours: Monday - Saturday, 9:00 AM - 8:00 PM EST
 
 ## Acknowledgments
 

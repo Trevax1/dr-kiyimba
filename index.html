@@ -380,8 +380,15 @@
                     </div>
                 </div>
             </div>
-            <form id="booking-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+            <form id="booking-form" 
+                  name="contact" 
+                  method="POST" 
+                  action="/success.html"
+                  data-netlify="true" 
+                  netlify-honeypot="bot-field" 
+                  class="contact-form">
                 <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="subject" value="New Reading Request" />
                 <div class="form-group" hidden>
                     <input name="bot-field" />
                 </div>
@@ -418,10 +425,13 @@
                     <div class="error-message" id="duration-error"></div>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" name="message" required placeholder="Tell us about your situation..."></textarea>
+                    <textarea id="message" name="message" required placeholder="Tell us about your situation..." rows="5"></textarea>
                     <div class="error-message" id="message-error"></div>
                 </div>
-                <button type="submit" id="submit-button" class="submit-button">Request Reading</button>
+                <button type="submit" id="submit-button" class="submit-button">
+                    <span class="button-text">Request Reading</span>
+                    <span class="loading-spinner" style="display: none;">Sending...</span>
+                </button>
                 <div id="form-status" class="form-status"></div>
             </form>
         </div>

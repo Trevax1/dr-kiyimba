@@ -383,12 +383,13 @@
             <form id="booking-form" 
                   name="contact" 
                   method="POST" 
-                  action="/success.html"
                   data-netlify="true" 
-                  netlify-honeypot="bot-field" 
+                  data-netlify-honeypot="bot-field"
                   class="contact-form">
                 <input type="hidden" name="form-name" value="contact" />
                 <input type="hidden" name="subject" value="New Reading Request" />
+                <input type="hidden" name="_replyto" value="kiyimba50@gmail.com" />
+                <input type="hidden" name="_to" value="kiyimba50@gmail.com" />
                 <div class="form-group" hidden>
                     <input name="bot-field" />
                 </div>

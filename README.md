@@ -1,92 +1,163 @@
-# Dr. Kiyimba - Professional Psychic Services Website
+# Dr. Kiyimba - Professional Psychic Services
 
-A modern, responsive website for Dr. Kiyimba's professional psychic services built with HTML, CSS, and JavaScript.
+A modern, responsive website for Dr. Kiyimba's professional psychic and spiritual services. This platform provides a seamless experience for clients seeking spiritual guidance, psychic readings, and traditional healing services.
 
-## Features
+## About Dr. Kiyimba
 
-- Responsive design that works on all devices
-- Modern and elegant user interface
+Dr. Kiyimba is a renowned spiritual healer and psychic with extensive experience in:
+- Traditional African healing practices
+- Psychic readings and spiritual guidance
+- Relationship and life path consultations
+- Spiritual cleansing and protection
+- Traditional medicine and herbal remedies
+
+## Website Features
+
+### Core Functionality
+- Interactive service booking system
+- Secure client consultation scheduling
+- Real-time availability checking
+- Automated email notifications
+- Privacy-focused client data handling
+
+### User Experience
+- Responsive design optimized for all devices
+- Intuitive navigation and service discovery
+- Multi-language support
+- Accessible design following WCAG guidelines
+- Fast loading and smooth performance
+
+### Technical Features
+- Modern, clean user interface
 - Smooth animations and transitions
-- Interactive navigation menu
-- Service showcase with hover effects
-- Testimonial slider with touch/drag support
-- Contact form with validation
-- Smooth scrolling navigation
-- Mobile-friendly design
+- Interactive service showcase
+- Testimonial management system
+- Secure contact form with validation
+- Mobile-first responsive design
 
-## Technologies Used
+## Technology Stack
 
-- HTML5
-- CSS3 (with CSS Variables and Flexbox/Grid)
-- JavaScript (ES6+)
-- Font Awesome Icons
-- Google Fonts
+### Frontend
+- HTML5 for semantic markup
+- CSS3 with modern features (Variables, Flexbox, Grid)
+- JavaScript (ES6+) for interactivity
+- Tailwind CSS for utility-first styling
+- Responsive images and media
+
+### Backend
+- Node.js server
+- Express.js framework
+- RESTful API architecture
+- Secure session management
+- Environment-based configuration
+
+### Development Tools
+- Git for version control
+- Nodemon for development
+- Modern development workflow
+- Cross-browser testing
+- Performance optimization
 
 ## Getting Started
 
-1. Clone the repository
-2. Open `index.html` in your web browser
-3. No build process or dependencies required
+### Prerequisites
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+- Modern web browser
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Trevax1/dr-kiyimba.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file with required environment variables
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
 ## Project Structure
-
 ```
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles
-├── script.js           # JavaScript functionality
-└── README.md          # Project documentation
+dr-kiyimba/
+├── index.html          # Main entry point
+├── server.js          # Node.js server
+├── styles.css         # Global styles
+├── script.js          # Client-side JavaScript
+├── package.json       # Project dependencies
+├── .env              # Environment variables
+├── privacy-policy.html # Privacy policy
+└── terms.html        # Terms of service
 ```
 
-## Features in Detail
+## Services Offered
 
-### Navigation
-- Fixed navigation bar with blur effect
-- Mobile-responsive menu with smooth transitions
-- Active state indicators
+### Spiritual Consultations
+- Personal psychic readings
+- Relationship guidance
+- Life path analysis
+- Spiritual healing sessions
 
-### Hero Section
-- Full-screen hero image with overlay
-- Animated text and call-to-action button
-- Responsive design for all screen sizes
+### Traditional Healing
+- Traditional medicine consultations
+- Herbal remedy prescriptions
+- Spiritual cleansing
+- Protection rituals
 
-### Services
-- Grid layout for service cards
-- Hover effects with elevation
-- Icon-based visual representation
+### Specialized Services
+- Business spiritual guidance
+- Family spiritual counseling
+- Custom healing ceremonies
+- Spiritual workshops
 
-### Testimonials
-- Horizontal scrollable slider
-- Touch and drag support
-- Smooth scrolling behavior
+## Security & Privacy
 
-### Contact Form
-- Form validation
-- Responsive design
-- Success/error handling
-- Loading states
+- SSL/TLS encryption
+- Secure data handling
+- GDPR compliance
+- Privacy-focused design
+- Regular security updates
 
 ## Browser Support
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Opera (latest)
+- Chrome (latest 2 versions)
+- Firefox (latest 2 versions)
+- Safari (latest 2 versions)
+- Edge (latest 2 versions)
+- Mobile browsers (iOS/Android)
 
-## Performance
+## Performance Optimization
 
-- Optimized images
-- Minimal dependencies
-- Efficient CSS and JavaScript
-- Smooth animations
+- Optimized assets and images
+- Efficient code splitting
+- Lazy loading implementation
+- Caching strategies
+- CDN integration
+
+## Contributing
+
+While this is primarily a private project, suggestions and feedback are welcome. Please:
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
 ## License
 
-MIT License - feel free to use this template for your own projects.
+This project is proprietary and confidential. All rights reserved.
 
-## Credits
+## Contact
 
-- Background image from Unsplash
-- Icons from Font Awesome
-- Fonts from Google Fonts
-- Website designed for Dr. Kiyimba's Professional Psychic Services 
+For business inquiries or support:
+- Website: [Dr. Kiyimba's Website]
+- Email: [Contact through website]
+- Location: [Service Location]
+
+## Acknowledgments
+
+- Special thanks to all clients and supporters
+- Traditional healing community
+- Spiritual guidance mentors
+- Web development contributors 

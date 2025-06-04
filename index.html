@@ -380,7 +380,11 @@
                     </div>
                 </div>
             </div>
-            <form id="booking-form" class="contact-form">
+            <form id="booking-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+                <input type="hidden" name="form-name" value="contact" />
+                <div class="form-group" hidden>
+                    <input name="bot-field" />
+                </div>
                 <div class="form-group">
                     <input type="text" id="name" name="name" required placeholder="Your Name">
                     <div class="error-message" id="name-error"></div>
@@ -406,21 +410,19 @@
                 <div class="form-group">
                     <select id="duration" name="duration" required>
                         <option value="">Select Session Duration</option>
-                        <option value="30">30-Minute Session</option>
-                        <option value="60">60-Minute Session</option>
-                        <option value="couple">Couple's Reading</option>
+                        <option value="30">30 Minutes ($50)</option>
+                        <option value="60">1 Hour ($90)</option>
+                        <option value="90">1.5 Hours ($130)</option>
+                        <option value="120">2 Hours ($170)</option>
                     </select>
                     <div class="error-message" id="duration-error"></div>
                 </div>
                 <div class="form-group">
-                    <textarea id="message" name="message" required placeholder="Tell us about your situation and what you hope to gain from the reading"></textarea>
+                    <textarea id="message" name="message" required placeholder="Tell us about your situation..."></textarea>
                     <div class="error-message" id="message-error"></div>
                 </div>
-                <div class="form-status" id="form-status"></div>
-                <button type="submit" class="submit-button" id="submit-button">
-                    <span class="button-text">Book Your Reading</span>
-                    <span class="loading-spinner"></span>
-                </button>
+                <button type="submit" id="submit-button" class="submit-button">Request Reading</button>
+                <div id="form-status" class="form-status"></div>
             </form>
         </div>
     </section>
